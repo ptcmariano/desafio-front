@@ -55,10 +55,10 @@ class NavHeader extends React.Component {
                         onClose={this.handleClose}
                         >
                         <MenuItem onClick={this.handleClose}>
-                            <NavLink to="/">Home</NavLink>
+                            <NavLink to="/">Inicio</NavLink>
                         </MenuItem>
                         <MenuItem onClick={this.handleClose}>
-                            <NavLink to="/users">Users</NavLink>
+                            <NavLink to="/restaurants">Restaurantes</NavLink>
                         </MenuItem>
                     </Menu>
                     <Typography variant="title" color="inherit" className="grow">

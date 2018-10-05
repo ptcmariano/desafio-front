@@ -7,7 +7,8 @@ class Home extends React.Component{
             <div className="app">
                 <NavHeader />
                 <main>
-                    <h1>Home</h1>
+                    <h1>Página inicial</h1>
+                    <p>Escolha uma opcao no menu para exibir os dados</p>
                 </main>
             </div>
         )

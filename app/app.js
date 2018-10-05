@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Home from 'ui/home';
-import Users from 'ui/users';
+import Restaurants from 'ui/restaurants';
 
 ReactDOM.render((
     <BrowserRouter>
         <div>
         <Route path="/" component={Home} />
-        <Route path="/users" component={Users} />
+        <Route path="/restaurants" component={Restaurants} />
         </div>
     </BrowserRouter>
 ), document.getElementById('root'));
